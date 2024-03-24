@@ -1,0 +1,17 @@
+arrow function o funcion flecha
+
+Las funciones flecha permiten definir de manera compacta una función convencional. Si la función tiene solamente una sentencia que devuelve un valor, el uso de funciones flecha nos permite eliminar las llaves y la palabra return. Incluso utilizando parámetros también podemos ver mucho más reducido el código.
+ejemplo 
+let saludo = nombre => `Hola ${nombre}`;
+console.log( saludo('Jonathan') );
+(param1, param2, ..., paramN) => { sentencias }
+param1, param2, ..., paramN son los parámetros de la función.
+sentencias es el cuerpo de la función, que contiene las instrucciones que queremos que la función realice.
+
+callback o retrollamada
+
+Una función de callback es una función que se pasa a otra función como un argumento, que luego se invoca dentro de la función externa para completar algún tipo de rutina o acción.
+
+¿A qué llamamos callback? Un callback es cuando, tras hacer un casting para un determinado proyecto, te llaman para volverte a ver. Es decir, se trata de una segunda (o tercera, o cuarta…) prueba.
+
+Los callbacks son esenciales para el estilo de programación asíncrona en JavaScript y se utilizan ampliamente en bibliotecas y frameworks para manejar eventos, realizar solicitudes HTTP, realizar operaciones de E/S y más.

@@ -1,0 +1,15 @@
+funcionamiento del archivo git.ignore
+
+el archivo . git ignore es donde se coloca el nombre de los archivos cuales no queramos que se suban al repositorio global como git hub.
+para excluir archivos y directorios del control de versiones. Ayuda a mantener el repositorio limpio y organizado evitando que se rastreen archivos innecesarios.
+
+funcionamiento del packaje.json
+
+es donde estan las configuraciones del proyecto, que dependencias se estan utilizando, con que versiones para la incompatibilidad de versiones nos sirve bastante en relacion de lo que se quiere hacer para ver si es compatible y no, tambien estan ,as configuraciones iniciales para el arranque del proyecto, como tambien del testeo.
+7 Su finalidad es mantener un historial de los paquetes instalados y optimizar la forma en que se generan las dependencias del proyecto y los contenidos de la carpeta node_modules/ .
+
+otro archivo yarn.lock o  package-lock. json
+
+yarn.lock: Este archivo es utilizado por Yarn, un gestor de paquetes alternativo a npm. Contiene información detallada sobre las versiones exactas de las dependencias y sus subdependencias que están instaladas en un proyecto. Está diseñado para garantizar la reproducibilidad de las instalaciones de paquetes entre diferentes entornos y para mantener la coherencia en las versiones de los paquetes entre diferentes miembros del equipo de desarrollo.
+
+package-lock.json: Este archivo es utilizado por npm (Node Package Manager). Similar al yarn.lock, package-lock.json también contiene información sobre las versiones exactas de las dependencias instaladas, así como información sobre la resolución de dependencias y sus dependencias transitivas. Al igual que yarn.lock, su objetivo principal es garantizar la reproducibilidad de las instalaciones de paquetes.
